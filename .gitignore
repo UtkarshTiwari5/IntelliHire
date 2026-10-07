@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+uploads/
+models/
+.streamlit/
+.pytest_cache/
+.env
+venv/
+__pycache__/

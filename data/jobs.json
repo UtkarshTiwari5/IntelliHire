@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "title": "Python Developer",
+        "company": "Demo Tech",
+        "description": "Looking for a Python developer with FastAPI, SQL, Git and Docker experience.",
+        "skills": [
+            "python",
+            "fastapi",
+            "sql",
+            "git",
+            "docker"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Machine Learning Engineer",
+        "company": "AI Labs",
+        "description": "Looking for an ML engineer with Python, machine learning, deep learning and SQL experience.",
+        "skills": [
+            "python",
+            "machine learning",
+            "deep learning",
+            "sql"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "AI Engineer",
+        "company": "Intelligence Systems",
+        "description": "Looking for an AI engineer with Python, NLP, machine learning and cloud experience.",
+        "skills": [
+            "python",
+            "artificial intelligence",
+            "natural language processing",
+            "machine learning",
+            "aws"
+        ]
+    }
+]

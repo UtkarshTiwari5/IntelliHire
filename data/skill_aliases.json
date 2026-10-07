@@ -1,0 +1,67 @@
+{
+    "python": [
+        "python",
+        "python3"
+    ],
+    "machine learning": [
+        "machine learning",
+        "ml"
+    ],
+    "deep learning": [
+        "deep learning",
+        "dl"
+    ],
+    "artificial intelligence": [
+        "artificial intelligence",
+        "ai"
+    ],
+    "natural language processing": [
+        "natural language processing",
+        "nlp"
+    ],
+    "javascript": [
+        "javascript",
+        "js"
+    ],
+    "typescript": [
+        "typescript",
+        "ts"
+    ],
+    "sql": [
+        "sql",
+        "structured query language"
+    ],
+    "fastapi": [
+        "fastapi"
+    ],
+    "django": [
+        "django"
+    ],
+    "flask": [
+        "flask"
+    ],
+    "react": [
+        "react",
+        "reactjs"
+    ],
+    "docker": [
+        "docker"
+    ],
+    "kubernetes": [
+        "kubernetes",
+        "k8s"
+    ],
+    "aws": [
+        "aws",
+        "amazon web services"
+    ],
+    "azure": [
+        "azure"
+    ],
+    "git": [
+        "git"
+    ],
+    "github": [
+        "github"
+    ]
+}

@@ -1,0 +1,34 @@
+services:
+
+  db:
+    image: postgres:16
+    container_name: intellihire-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 12345
+      POSTGRES_DB: intellihire
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build: .
+    container_name: intellihire-backend
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://postgres:12345@db:5432/intellihire
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    container_name: intellihire-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
