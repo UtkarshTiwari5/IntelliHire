@@ -5,7 +5,7 @@ services:
     container_name: intellihire-db
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 12345
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: intellihire
     ports:
       - "5432:5432"
@@ -18,7 +18,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      DATABASE_URL: postgresql://postgres:12345@db:5432/intellihire
+      DATABASE_URL: postgresql://postgres:${POSTGRES_PASSWORD}@db:5432/intellihire
     depends_on:
       - db
 
